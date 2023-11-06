@@ -55,7 +55,7 @@ const Main = () => {
 
     <main>
 
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
 
         <Route path='/' element={<Header />} />
 
